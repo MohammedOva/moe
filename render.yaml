@@ -1,8 +1,0 @@
-services:
-  - type: cron
-    name: reddit-bot-job
-    runtime: python
-    repo: https://github.com/MohammedOva/moe
-    buildCommand: ""
-    startCommand: python main.py
-    schedule: "@hourly"
